@@ -21,6 +21,7 @@ module.exports = {
       res.redirect("/category");
     }
   },
+
   viewCreate: async (req, res) => {
     try {
       res.render("admin/category/create", {
@@ -67,6 +68,7 @@ module.exports = {
       res.redirect("/category");
     }
   },
+
   actionEdit: async (req, res) => {
     try {
       const { id } = req.params;
